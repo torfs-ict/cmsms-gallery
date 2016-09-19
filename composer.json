@@ -1,0 +1,24 @@
+{
+    "name": "torfs-ict/cmsms-gallery",
+    "description": "Module which adds a Photo gallery content type.",
+    "version": "1.0.0-alpha.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kristof Torfs",
+            "email": "kristof@torfs.org"
+        }
+    ],
+    "require": {
+        "torfs-ict/cmsms": "^2.1"
+    },
+    "autoload": {
+        "psr-4": { "Gallery\\" : "lib/" }
+    },
+    "extra": {
+        "cmsms": {
+            "module": true,
+            "name": "Gallery"
+        }
+    }
+}
